@@ -1,3 +1,3 @@
 # ResponsiveLayout-flexbox
 
-live link - https://responsive-layout-fex.netlify.app/
+live link - responsivelyout.netlify.app
