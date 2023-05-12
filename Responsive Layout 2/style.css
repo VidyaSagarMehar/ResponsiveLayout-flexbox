@@ -103,3 +103,6 @@ img {
 .third__top--para p {
 	font-size: 21px;
 }
+img {
+	max-width: 100%;
+}
