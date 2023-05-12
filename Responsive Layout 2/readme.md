@@ -1,1 +1,1 @@
-live link - https://responsivelyout2.netlify.app/
+live link - https://resoponsivelaout2.netlify.app/
