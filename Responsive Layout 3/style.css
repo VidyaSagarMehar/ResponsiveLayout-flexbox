@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+.logo {
+	width: 10%;
+}
+img {
+	width: 100%;
+}
+header {
+	background: #2e323f;
+	color: #ffffff;
+	display: flex;
+	align-items: start;
+}
+header nav ul {
+	text-transform: uppercase;
+	list-style: none;
+	font-size: 1.25rem;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.hero__main {
+	padding-top: 1rem;
+	background: #3b4050;
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+.hero__main h1,
+div {
+	width: 80%;
+	margin: 0 auto;
+	/* margin-top: 2rem; */
+}
+.btn__want {
+	border: none;
+	margin-top: 1em;
+	padding: 1rem 2rem;
+	border-radius: 100px;
+	font-size: 1rem;
+	background: #a59678;
+	margin-bottom: 2rem;
+}
+.flex__items {
+	padding-top: 2rem;
+	background: #a5967844;
+}
+.flex__item {
+	margin: 1.5rem auto;
+}
+.flex__item3 {
+	padding-bottom: 2rem;
+}
+.second main {
+	margin: 0 auto;
+	width: 80%;
+}
+.aside__item {
+	text-align: center;
+	margin: 1rem auto;
+	padding: 2.5rem;
+	background: #3b4050;
+	color: #ffffff;
+}
+.aside__item p {
+	margin-top: 1rem;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background: #3b4050;
+	color: #ffffff;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+footer h1 {
+	text-align: center;
+}
+.footer__nav {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.nav__container--footer {
+}
+.footer__item ul li {
+	list-style: none;
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+}
+
+@media (min-width: 1000px) {
+	.logo {
+		width: 5%;
+	}
+	header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	header nav ul {
+		font-size: 1.2rem;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+	}
+	header nav ul li {
+		margin-right: 1rem;
+	}
+	.hero__main {
+		display: flex;
+		flex-direction: row;
+		height: 80vh;
+		justify-content: center;
+		align-items: center;
+	}
+	.hero__main h1,
+	div {
+		border: 2px solid red;
+		width: 40%;
+		margin: 0 auto;
+	}
+}
